@@ -3,19 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. _index-table:
+.. _index-table-two:
 
-Welcome to docme's documentation!
+This is a submodule!
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Table of Contents (toctree):
 
    Home <self>
-   extend
-   testdoc/index
-   api
+   subextend
+
 
 Fun stuff indeed
 
